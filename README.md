@@ -116,7 +116,7 @@ mkdir -p project3/{app,k8s,terraform}
 touch project3/app/{.env,Dockerfile,package.json,server.js}
 touch project3/k8s/{backend-deployment-blue.yaml,backend-deployment-green.yaml,backend-service.yaml,hpa.yaml,ingress.yaml}
 touch project3/terraform/terraform.tf
-cd project
+cd project3
 git init
 git add .
 git commit -m "Microservices-Project"
