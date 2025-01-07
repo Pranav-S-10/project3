@@ -112,11 +112,11 @@ kubectl get nodes
 
 Create the directories and files:
 ```bash
-mkdir -p microservices-project/{app,k8s,terraform}
-touch microservices-project/app/{.env,Dockerfile,package.json,server.js}
-touch microservices-project/k8s/{backend-deployment-blue.yaml,backend-deployment-green.yaml,backend-service.yaml,hpa.yaml,ingress.yaml}
-touch microservices-project/terraform/terraform.tf
-cd microservices-project
+mkdir -p project3/{app,k8s,terraform}
+touch project/app/{.env,Dockerfile,package.json,server.js}
+touch project/k8s/{backend-deployment-blue.yaml,backend-deployment-green.yaml,backend-service.yaml,hpa.yaml,ingress.yaml}
+touch project/terraform/terraform.tf
+cd project
 git init
 git add .
 git commit -m "Microservices-Project"
